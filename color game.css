@@ -1,0 +1,90 @@
+ * {
+     overflow: hidden;
+ }
+ 
+ body {
+     background-color: #111111;
+     text-transform: uppercase;
+     color: white;
+     font-family: 'Balsamiq Sans', cursive;
+ }
+ 
+ .message:hover {
+     text-decoration: none;
+     color: #111111;
+ }
+ 
+ .message {
+     color: #111111;
+ }
+ 
+ .color-box {
+     height: 150px;
+     width: 150px;
+     transition: all .5s;
+     border-radius: 20px;
+ }
+ 
+ #top1 {
+     background-color: steelblue;
+     transition: background-color .5s;
+ }
+ 
+ .navbar-nav .nav-link {
+     color: steelblue;
+ }
+ 
+ #bar {
+     margin: 0 30%;
+ }
+ 
+ @media(max-width:992px) {
+     #bar {
+         margin: 0 25%;
+     }
+     .color-box {
+         height: 140px;
+         width: 140px;
+     }
+ }
+ 
+ @media(max-width:720px) {
+     #bar {
+         margin: 0 20%;
+     }
+     .color-box {
+         height: 130px;
+         width: 130px;
+     }
+ }
+ 
+ @media(max-width:576px) {
+     #bar {
+         margin: 0 10%;
+     }
+     .color-box {
+         height: 120px;
+         width: 120px;
+     }
+ }
+ 
+ .nav-link:hover {
+     background-color: rgba(70, 131, 180, 0.404);
+     color: white;
+ }
+ 
+ .nav-item .selected,
+ .navbar-nav .selected {
+     color: white;
+     background-color: steelblue;
+ }
+ 
+ .fade {
+     opacity: 0;
+     transition: opacity 1s;
+ }
+ 
+ .message {
+     text-transform: lowercase;
+     cursor: context-menu;
+ }
